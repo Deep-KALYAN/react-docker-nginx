@@ -4,7 +4,19 @@ This is a **MERN Stack** (MongoDB, Express.js, React, Node.js) application for m
 
 ---
 
-### The application is **Dockerised** make it easy to use
+### The application is **Dockerised** make it easy to use, two solutions to run.
+
+### First with docker-compose
+
+From root directory --> C:\....\MyProjectFandBwithDocker>
+
+##### run
+
+#### docker-compose up --build
+
+and you can check your docker and use the app from http://localhost:5073/
+
+### Second without docker-compose
 
 From root directory --> C:\....\MyProjectFandBwithDocker>
 
