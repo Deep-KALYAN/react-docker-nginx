@@ -8,11 +8,23 @@ This is a **MERN Stack** (MongoDB, Express.js, React, Node.js) application for m
 
 From root directory --> C:\....\MyProjectFandBwithDocker>
 
-### 1. run **chmod +x start-mern.sh** for execution permission:
+##### 1. run
 
-### 2. run **./start-mern.sh**
+#### chmod +x start-mern.sh
 
-### 3. open http://localhost:5173/ to use the App Library
+for execution permission:
+
+##### 2. run
+
+#### ./start-mern.sh
+
+##### It'll create docker containers (run, communicate and volume)
+
+##### 3. open
+
+#### http://localhost:5173/
+
+##### to use the App Library
 
 ---
 

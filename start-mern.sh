@@ -19,9 +19,10 @@ docker run -d \
   --name backend \
   --network mern-net \
   -p 3000:3000 \
-  -e MONGO_URL=mongodb://mongo:27017/mydb \
+  --env-file .env \
   mern-backend
 cd ..
+# -e MONGO_URL=mongodb://mongo:27017/library \
 
 # Step 4: Build and run frontend
 cd frontend || exit
